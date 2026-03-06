@@ -7,6 +7,10 @@ name = "compression"
 version = "0.1.0"
 
 [[package]]
+name = "cut"
+version = "0.1.0"
+
+[[package]]
 name = "json-parser"
 version = "0.1.0"
 
