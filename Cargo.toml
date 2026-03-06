@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "wc",
+    "json-parser",
+    "compression",
+]
