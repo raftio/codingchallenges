@@ -23,4 +23,12 @@ build-json-parser:
 
 build-compression:
 	cargo build -p compression
-. . e
+
+run-wc:
+	cargo run -p wc -- $(ARGS)
+
+run-json-parser:
+	cargo run -p json-parser -- $(ARGS)
+
+run-compression:
+	cargo run -p compression -- $(ARGS)
